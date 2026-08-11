@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_cad.css">
+    <script src="../js/produto_apagar.js" defer></script>
+    <title>Apagar Produto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>&emsp;&emsp;
+            <span class="titulo_menu">Usuarios</span>&emsp;
+            <a href="./usuario_cadastrar.html">Cadastrar</a>&emsp;
+            <a href="./usuario_listar.html">Listar</a>&emsp;
+            <a href="./usuario_consultar.html">Consultar</a>&emsp;
+            <a href="./usuario_atualizar.html">Atualizar</a>&emsp;
+            <a href="./usuario_apagar.html">Apagar</a>
+            <br><hr>
+            <span class="titulo_menu">Produtos</span>&emsp;
+            <a href="./produto_cadastrar.html">Cadastrar</a>&emsp;
+            <a href="./produto_listar.html">Listar</a>&emsp;
+            <a href="./produto_consultar.html">Consultar</a>&emsp;
+            <a href="./produto_atualizar.html">Atualizar</a>&emsp;
+            <a href="./produto_apagar.html">Apagar</a>
+            <br><hr>
+            <span class="titulo_menu">Operacoes</span>&emsp;
+            <a href="./movimento_cadastrar.html">Registrar Compra</a>&emsp;
+            <a href="./movimento_listar.html">Historico de Compras</a>
+            <br><hr>
+            <span class="titulo_menu">Relatorios Analiticos</span>&emsp;
+            <a href="./relatorio_produtos_criticos.html">Produtos Criticos</a>&emsp;
+            <a href="./relatorio_volume_compras.html">Volume de Compras</a>
+            <br><hr>
+            <span class="titulo_menu">Relatorios Graficos</span>&emsp;
+            <a href="./mov_historico_saida.html">Estoque Fisico</a>&emsp;
+            <a href="./mov_categoria_listar.html">Volume Financeiro</a>
+            <br><hr>
+            <span class="titulo_menu">Dashboard</span>&emsp;
+            <a href="./dashboard_produtos.html">Painel de Produtos</a>
+            <br><hr><br>
+        </nav>
+    </header>
+    <main>
+        <h1>Apagar Produto</h1>
+        <br>
+        <label for="idProduto">Codigo do Produto</label><br>
+        <input type="number" id="idProduto" required><br><br>
+        <button id="btn_apagar" class="btn_gerar">Apagar Produto</button>
+        <br><br>
+        <div id="resposta" class="resposta"></div>
+    </main>
+</body>
+</html>

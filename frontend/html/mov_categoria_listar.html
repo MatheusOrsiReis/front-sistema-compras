@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels" defer></script>
+
+    <script src="../js/mov_categoria_listar.js" defer></script>
+    <title>Relatorio Grafico - Volume por Categoria</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>&emsp;&emsp;
+            <span class="titulo_menu">Relatorios</span>&emsp;
+            <a href="./mov_categoria_listar.html">Volume de Compras</a>&emsp;
+            <a href="./mov_historico_saida.html">Produtos Criticos</a>
+            <br><hr><br>
+        </nav>
+    </header>
+    <main>
+        <h1>Relatorio Grafico: Volume de Compras por Categoria</h1>
+        <br>
+
+        <button id="gerar_grafico" class="btn_gerar">Gerar Grafico</button>
+        <br>
+        <div id="resposta" class="resposta">Clique no botao para renderizar...</div>
+
+        <div class="container_grafico">
+            <canvas id="graf"></canvas>
+        </div>
+    </main>
+</body>
+</html>
